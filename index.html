@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VELNIX.WEAR — Luxury Store & Owner Lobby</title>
+    <meta name="description" content="High-fashion streetwear e-commerce platform with an advanced, dual-owner command lobby for order management, customer negotiations, inventory, and real-time site customization." />
+    <meta property="og:title" content="VELNIX.WEAR — Luxury Store & Owner Lobby" />
+    <meta property="og:description" content="High-fashion streetwear e-commerce platform with an advanced, dual-owner command lobby for order management, customer negotiations, inventory, and real-time site customization." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      // Ensure trailing slash for proper relative asset resolution on GitHub Pages
+      if (window.location.pathname.length > 1 && !window.location.pathname.endsWith('/') && !window.location.pathname.split('/').pop().includes('.')) {
+        window.location.replace(window.location.pathname + '/' + window.location.search + window.location.hash);
+      }
+    </script>
+    <style>
+      @keyframes vnxSpin { to { transform: rotate(360deg); } }
+      body { margin: 0; background-color: #000; }
+    </style>
+  </head>
+  <body class="bg-black text-white">
+    <div id="root">
+      <div style="min-height:100vh;background-color:#000000;color:#ffffff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;padding:24px;text-align:center;">
+        <div style="width:36px;height:36px;border:2.5px solid #262626;border-top-color:#ffffff;border-radius:50%;animation:vnxSpin 0.8s linear infinite;margin-bottom:16px;"></div>
+        <div style="font-size:12px;letter-spacing:0.25em;text-transform:uppercase;color:#a3a3a3;font-weight:600;">VELNIX.WEAR ARCHITECTURE</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
